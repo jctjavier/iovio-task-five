@@ -5,7 +5,7 @@
 
 ## Option 2: Instantiate a computer in the cloud
 ### Pre-requisites (Windows with Docker Toolbox installed)
-1. Windows with Docker Toolbox installed (No Hyper-V)
+1. Windows/Linux/Unix with Docker installed
 2. Docker service is running
 
 ## Steps to instantiate an EC2 instance in AWS
@@ -34,7 +34,7 @@ docker-machine create --driver amazonec2 --amazonec2-access-key AKID1234567890 -
 ```
 docker-machine ls
 ```
-## Steps to instantiate a local virtual computer
+## Steps to instantiate a local virtual computer (For Windows with Docker toolbox installed. No Hyper-V)
 1. Open a command shell
 2. Run the following command: 
 ```
