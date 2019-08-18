@@ -1,0 +1,8 @@
+q)2*2 10 25      / multiply 2 by the values listed
+4 20 50
+q)10 9 8,65 39,25 75         / join three lists
+10 9 8 65 39 25 75
+q)6+2+7				/ summation
+15
+q)(count')("this";"was";"fun")			/ count the number of characters for each word
+4 3 3
