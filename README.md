@@ -54,3 +54,4 @@ myDefaultComputer = name of the instance
 docker-machine ls
 ```
 ## Option 3: Write 5 lines of code in the Q programming language by KX systems
+* Please refer to "filename.txt" in **q_lang** folder for Q Programming Language examples
