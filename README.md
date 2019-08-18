@@ -8,12 +8,12 @@
 1. Windows/Linux/Unix with Docker installed
 2. Docker service is running
 
-## Steps to instantiate an EC2 instance in AWS
-### Pre-requisites
+### Steps to instantiate an EC2 instance in AWS
+#### Pre-requisites
 1. AWS Credentials with an IAM administrator user
 2. an AWS Access Key ID
 3. an AWS Secret Access Key
-### Steps
+#### Steps
 1. _(Optional)_ Create a credentials file in _~/.aws_ with the following information:
 ```
 [default]
@@ -39,7 +39,7 @@ docker-machine create --driver amazonec2 --amazonec2-access-key AKID1234567890 -
 docker-machine ls
 ```
 
-## Steps to instantiate a local virtual computer (For Windows with Docker toolbox installed. No Hyper-V)
+### Steps to instantiate a local virtual computer (For Windows with Docker toolbox installed. No Hyper-V)
 1. Open a command shell
 2. Run the following command: 
 ```
