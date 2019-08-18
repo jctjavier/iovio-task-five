@@ -20,8 +20,11 @@
 aws_access_key_id = AKID1234567890
 aws_secret_access_key = MY-SECRET-KEY
 ```
+
 2. Open a command shell
+
 3. Run the following command:
+
 a. With a credentials file:
 ```
 docker-machine create --driver amazonec2 awsDefaultComputer
@@ -30,10 +33,12 @@ b. Without a credentials file:
 ```
 docker-machine create --driver amazonec2 --amazonec2-access-key AKID1234567890 --amazonec2-secret-key MY-SECRET-KEY awsDefaultComputer
 ```
+
 4. Run the following command to view instance details:
 ```
 docker-machine ls
 ```
+
 ## Steps to instantiate a local virtual computer (For Windows with Docker toolbox installed. No Hyper-V)
 1. Open a command shell
 2. Run the following command: 
