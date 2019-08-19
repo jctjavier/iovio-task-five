@@ -1,7 +1,5 @@
 # iovio-task-five
-##### status: *incomplete*
-
-## Option 1: Verify the fastest and smallest algorithm for compression
+##### status: *complete*
 
 ## Option 2: Instantiate a computer in the cloud
 ### Pre-requisites (Windows with Docker Toolbox installed)
